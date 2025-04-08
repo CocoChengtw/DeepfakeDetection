@@ -8,10 +8,20 @@ With the rapid advancement of deepfake generation technologies, malicious actors
 
 ## Highlights
 - Model: ConvNeXt V2 (image classification)
-- Performance: 93.8% → 98.8% F1-score after iterative error analysis
+- Performance: 93.8% → **98.8% F1-score** after iterative error analysis
 - Techniques: t-SNE embedding visualization, ROC/PR curve analysis, threshold tuning
-- Deployment-ready: Modular scripts for evaluation, visualization, and prediction
+- Practical focus: Evaluation and visualization workflows designed to support real-world model decisions.
 - Business context: Built as part of an internal AI initiative for real-world application
+
+## Evaluation and Error Analysis
+
+To refine model performance, we used multiple evaluation techniques:
+
+- **t-SNE feature embedding visualization** – to identify ambiguous samples and misclassification patterns
+- **Threshold tuning** – optimized decision boundaries based on distribution of prediction scores
+- **ROC and PR curve analysis** – used to compare baseline and tuned models in terms of precision and recall trade-offs
+
+Detailed implementation is integrated into the training and evaluation workflow.
 
 ## Repository Overview
 
