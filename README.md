@@ -1,6 +1,7 @@
 # Deepfake Detection with ConvNeXt V2
 
 This project fine-tunes ConvNeXt V2 to detect deepfake visual content, achieving up to **98.8% F1-score** after applying t-SNE for error analysis and threshold tuning.
+(This repository is based on a production model pipeline. Some components have been removed or refactored for privacy compliance, but the core methodology and structure remain faithful to the original.)
 
 ## Background
 
