@@ -33,8 +33,10 @@ We applied t-SNE to visualize the feature embeddings of real and fake samples be
 
 - **Before Tuning**  
   Clusters of real and fake images were overlapping, making classification ambiguous.
+
   ![image](https://github.com/user-attachments/assets/9f7341b8-dd48-4cc5-ba14-0db8f97321a0)
 
 - **After Tuning**  
   The updated threshold separated real and fake embeddings more distinctly, contributing to a final F1-score of **98.8%**.
+
   ![image](https://github.com/user-attachments/assets/6b1e41c1-33fe-4d2c-9cb1-1028494969b3)
